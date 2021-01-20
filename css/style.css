@@ -118,7 +118,7 @@ body,html{
 }
 .top-nav ul{
 	padding:0px;
-	margin:2em 0 0;
+	margin:0 0 1em;
 	}
 .top-nav ul li{
 	display:inline-block;
@@ -140,7 +140,7 @@ body,html{
 	padding-bottom:2px;
 	}
 .navi{
-	margin: 5em 0 0;
+	margin: 1em 0 0;
 	}
 .banner-info{
 	margin: 10em 0 0;
@@ -886,7 +886,7 @@ ul.social-slide li i.mac{
 	background:url(../images/banner.jpg) no-repeat 0px 0px #000;
 	background-size:cover;
 	width:100%;
-	min-height:200px;
+	min-height:100px;
 	position:relative;
 	}
 .fig11 {
