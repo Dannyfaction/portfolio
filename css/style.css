@@ -17,6 +17,9 @@ body,html{
 	width:100%;
 	min-height:900px;
 	}
+#myVideo {
+	margin-left: -35%;
+	}
 .head-logo{
 	float:left;
 	margin:0;
