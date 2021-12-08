@@ -12,13 +12,17 @@ body,html{
 	}
 /*-- banner --*/
 .banner{
-	background:url(../images/bannerV3.jpg) no-repeat 0px 0px #000;
-	background-size:cover;
+	/*--background:url(../images/bannerV3.jpg) no-repeat 0px 0px #000;--*/
+	background: #0FC89E;
+	/*--background-size:cover;--*/
 	width:100%;
-	min-height:900px;
+	min-height:75px;
+	position: fixed;
+	top: 0;
+	z-index: 5;
 	}
 #myVideo {
-	margin-left: -35%;
+	/*--margin-left: -35%; --*/
 	}
 .head-logo{
 	float:left;
@@ -28,7 +32,7 @@ body,html{
 	float:left;
 	}
 .logo a{
-	font-size: 50px;
+	font-size: 42px;
 	color: #fff;
 	font-weight: 700;
 	}
