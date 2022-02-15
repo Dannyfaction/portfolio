@@ -118,6 +118,7 @@ body,html{
 	box-shadow: 1px 1px 0px #10866C;
 	}
 .top-nav{
+	margin: 1.5em 0 0;
 	float: right;
 	}
 .top-nav span{
@@ -147,7 +148,7 @@ body,html{
 	padding-bottom:2px;
 	}
 .navi{
-	margin: 1em 0 0;
+	/*--margin: 1em 0 0;--*/
 	}
 .banner-info{
 	margin: 10em 0 0;
