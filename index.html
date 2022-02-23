@@ -143,6 +143,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<h4>PROJECTS</h4>
             <div class="sap_tabs">
+			<!--<div id="horizontalTab1" style="display: block; width: 100%; margin: 0px;">
+                    <ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>All</span></li>
+                        <li class="resp-tab-item"><span>Tools</span></li>
+						<li class="resp-tab-item"><span>Games</span></li>
+                    </ul>
+			</div>-->
                 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
                     <ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
                         <li class="resp-tab-item"><span>All</span></li>
@@ -382,6 +389,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     });
                 });
             </script>
+			<script type="text/javascript">
+                $(document).ready(function () {
+                    $('#horizontalTab1').easyResponsiveTabs({
+                        type: 'default', //Types: default, vertical, accordion           
+                        width: 'auto', //auto or any width like 600px
+                        fit: true // 100% fit in a container
+                    });
+                });
+            </script>
             <!--//ResponsiveTabs-->
     </div>
 <!-- //projects -->
@@ -395,7 +411,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<br><br>
 		</div>
 		<div class="grid_8">
-		<h2>Engine & Tools Programmer</h2>
+		<h2>Tools Programmer</h2>
 		<p>
 		<span>I'm currently studying <a href="https://www.buas.nl/opleidingen/creative-media-and-game-technologies">Creative Media & Game Technologies</a> <br> at the Breda University of Applied Sciences.</span>
 		</p>
