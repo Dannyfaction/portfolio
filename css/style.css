@@ -565,7 +565,7 @@ ul.social-slide li i.mac{
 /*-- //banner-bottom --*/
 /*-- about --*/
 .about{
-	background:#E5E6E6;
+	background:#BFBFBF;
 	padding:6em 0;
 	text-align:center;
 	}
@@ -585,8 +585,8 @@ ul.social-slide li i.mac{
 	display:block;
 	}
 .about p{
-	color:#737373;
-	font-size:15px;
+	color:#404040;
+	font-size:18px;
 	line-height: 28px;
 	margin: 2em 0 3em;
 	}
@@ -674,7 +674,7 @@ ul.social-slide li i.mac{
 }
 .work{
 	padding:6em 0;
-	background:#EDEDED;
+	background:#E6E6E6;
 	}
 .work h4{
 	color:#343434;
@@ -779,7 +779,7 @@ ul.social-slide li i.mac{
 /*-- //map --*/
 /*-- footer --*/
 .footer{
-	background:#EDEDED;
+	background:#808080;
 	padding:2em 0 1em;
 	}
 .footer-left{
