@@ -619,6 +619,35 @@ ul.social-slide li i.mac{
 	text-decoration:none;
 	}
 /*-- //about --*/
+/*-- skills --*/
+.skills{
+	background:#404040;
+	padding:6em 0;
+	text-align:center;
+	}
+.skills h3{
+	color:#FFFFFF;
+	}
+.skills h4{
+	color:#FFFFFF;
+	margin:1em 0 1em;
+	font-size: 16px;
+	letter-spacing: 3px;
+	}
+.skills_box{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #BFBFBF;
+	color:#000000 !important;
+	border-radius: 2px;
+	text-align: center;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0% !important;
+	width: auto !important; 
+}
+/*-- //skills --*/
 /*-- work --*/
 #myList li{ 
 	display:none;
