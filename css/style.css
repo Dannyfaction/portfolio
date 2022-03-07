@@ -144,7 +144,7 @@ body,html{
 	}
 .top-nav{
 	/*margin: -3em 0 0;*/
-	float: right;
+	float: left;
 	}
 .top-nav span{
 	display:none;
