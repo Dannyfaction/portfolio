@@ -17,7 +17,7 @@ body,html{
 	background: #808080;
 	/*--background-size:cover;--*/
 	width:100%;
-	min-height:75px;
+	/*--min-height:75px;--*/
 	position: fixed;
 	top: 0;
 	z-index: 5;
@@ -52,12 +52,13 @@ body,html{
 .head-logo{
 	float:left;
 	margin:0;
+	transform: translate(0, 25%);
 	}
 .logo{
 	float:left;
 	}
 .logo a{
-	font-size: 42px;
+	font-size: 30px;
 	color: #fff;
 	font-weight: 700;
 	}
@@ -144,7 +145,7 @@ body,html{
 	}
 .top-nav{
 	/*margin: -3em 0 0;*/
-	float: left;
+	float: right;
 	}
 .top-nav span{
 	display:none;
@@ -2649,11 +2650,11 @@ p.text span{
 }
 
 .grid img {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .grid .figcaption {
-    padding: 2em 2.5em;
+    padding: 0em 2.5em;
     color: #fff;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -2692,8 +2693,8 @@ p.text span{
 }
 
 .grid:hover img {
-    -moz-opacity: 0.5;
-    opacity: 0.5;
+    -moz-opacity: 0.4;
+    opacity: 0.4;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -2747,7 +2748,7 @@ p.text span{
     -ms-transform: translate3d(0, 0, 0);
 }
 
-.grid:hover h3 {
+.grid h3 {
     -moz-opacity: 1;
     opacity: 1;
 }
