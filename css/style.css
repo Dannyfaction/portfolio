@@ -2654,7 +2654,7 @@ p.text span{
 }
 
 .grid .figcaption {
-    padding: 0em 2.5em;
+    padding: 0em 2em;
     color: #fff;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
