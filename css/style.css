@@ -14,7 +14,7 @@ body,html{
 /*-- banner --*/
 .banner{
 	/*--background:url(../images/bannerV3.jpg) no-repeat 0px 0px #000;--*/
-	background: #808080;
+	background: #171717;
 	/*--background-size:cover;--*/
 	width:100%;
 	/*--min-height:75px;--*/
@@ -159,7 +159,7 @@ body,html{
 	margin: 0px 1em;
 	}
 .top-nav ul li a{
-	color:#fff;
+	color:#13AFF0;
 	font-size:18px;
 	font-weight:600;
 	}
@@ -566,6 +566,7 @@ ul.social-slide li i.mac{
 /*-- //banner-bottom --*/
 /*-- about --*/
 .about{
+	/*background-image: url('../images/WhatWalksOnFourLegs_Blurred.png') !important;*/
 	background:#BFBFBF;
 	padding:6em 0;
 	text-align:center;
