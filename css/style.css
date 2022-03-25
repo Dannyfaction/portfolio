@@ -25,22 +25,30 @@ body,html{
 #myVideo {
 	/*--margin-left: -35%; --*/
 	}
+#myVideoProject {
+	/*--margin-left: -35%; --*/
+	width: 960px;
+	}
 .video-container {
-  position: relative;
+  /*position: relative;
   top: 0;
   bottom: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%;*/
   overflow: hidden;
   margin: 0em 0em -1em;
+  background: #E6E6E6;
 }
 .video-container video {
-  /* Make video to at least 100% wide and tall */
+  /* Make video to at least 100% wide and tall 
   min-width: 100%; 
   min-height: 100%; 
+  max-width: 100%;
+  max-height: 100%;*/
 
+  width: 1140px;
   /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: auto;
+  /*width: auto;--*/
   height: auto;
 
   /* Center the video */
@@ -48,6 +56,24 @@ body,html{
   top: 50%;
   left: 50%;
   transform: translate(-50%,0%);
+  margin-top: 100px;
+}
+.video-container-project {
+  overflow: hidden;
+  margin: 0em 0em -1em;
+  background: #E6E6E6;
+  
+  width: 960px;
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  /*width: auto;--*/
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  /*margin-top: 100px;*/
 }
 .head-logo{
 	float:left;
@@ -568,7 +594,7 @@ ul.social-slide li i.mac{
 .about{
 	/*background-image: url('../images/WhatWalksOnFourLegs_Blurred.png') !important;*/
 	background:#BFBFBF;
-	padding:6em 0;
+	padding:3em 0;
 	text-align:center;
 	}
 .about h4{
@@ -590,7 +616,8 @@ ul.social-slide li i.mac{
 	color:#404040;
 	font-size:18px;
 	line-height: 28px;
-	margin: 2em 0 3em;
+	/*margin: 2em 0 3em;*/
+	text-align: left;
 	}
 .about p span{
 	display:block;
@@ -624,7 +651,7 @@ ul.social-slide li i.mac{
 /*-- skills --*/
 .skills{
 	background:#404040;
-	padding:6em 0;
+	padding:3em 0;
 	text-align:center;
 	}
 .skills h3{
@@ -704,7 +731,7 @@ ul.social-slide li i.mac{
 	clear:both;
 }
 .work{
-	padding:6em 0;
+	padding:3em 0;
 	background:#E6E6E6;
 	}
 .work h4{
@@ -741,7 +768,7 @@ ul.social-slide li i.mac{
 /*-- //work --*/
 /*-- map --*/
 .map{
-	padding:6em 0 0;
+	padding:3em 0 0;
 	background:#BFBFBF;
 	border-top:1px solid #DEDFDF;
 	position:relative;
@@ -1750,7 +1777,7 @@ p.text span{
 @media (max-width: 1280px)
 {
 	.navi {
-		margin: 4.5em 0 0;
+		/*margin: 4.5em 0 0;*/
 		}
 	.hire-us {
 		left: 41%;
@@ -2790,7 +2817,7 @@ p.text span{
     .skills,
     .portfolio,
     .contact {
-        padding: 5em 0;
+        padding: 3em 0;
     }
     .work-right.work-right2 {
         min-height: 200px;
@@ -3282,10 +3309,12 @@ p.text span{
 /*--project-listing-top---*/
 ul.resp-tabs-list {
     /*-- w3layouts --*/
-    background: #404040;
+    background: #808080;
 	opacity: 0.95;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 50%;
+	margin-left: 50%;
+	width: 90%;
+	transform: translate(-50%,0%);
 }
 
 .sap_tabs {
@@ -3310,7 +3339,7 @@ ul.resp-tabs-list {
 
 .resp-tab-item {
     color: #FFFFFF;
-    font-size: 1.2em;
+    font-size: 1.5em;
     cursor: pointer;
     display: inline-block;
     list-style: none;
@@ -3326,14 +3355,14 @@ ul.resp-tabs-list {
 }
 
 .resp-tab-item:hover {
-    color: #808080;
+    color: #000000;
 }
 
 .resp-tab-active,
 .resp-tab-active:hover {
     text-shadow: none;
     color: #fff;
-    background: #BFBFBF;
+    background: #404040;
 }
 
 .resp-tab-active:before {
