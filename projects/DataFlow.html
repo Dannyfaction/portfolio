@@ -140,11 +140,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="grid_12">
 			<p style="font-size:18px;">Over the months that I worked on this project, I had a diverse set of responsibilities and contributions. From Engine programming to Tools programming, to balancing the game, designing the audio and finally porting the entire engine to the Nintendo Switch.
 			<br><br>
+			Engine<br>
 			We had a lot of roadblocks related to our design of the engine and choice of libraries. We initially started with <a href="https://github.com/SanderMertens/flecs">Flecs</a> as our Entity Component System, but due to a lot of problems such as missing functionality and bugs we encountered in the codebase, we decided halfway throughout the project to change to a much more reliable ECS, <a href="https://github.com/SanderMertens/flecs">EnTT</a>.
 			<br><br>
 			For most of the data types of the engine, we decided to stick with the C++ Standard Library and Windows SDK for underlying OS-specific features.
 			<br><br>
 			Porting the entire engine to the Nintendo Switch meant that I had to learn how to use the Nintendo SDK and transform the OS-specific behavior in a short time period which I learned a lot from! This also included profiling and optimizing the overal performance for the Switch build.
+			<br><br>
+			BugReporter<br>
+			We noticed while in the production phase that we were reluctant to report bugs that we encountered during development as you had to manually find the Jira Board, create an item, categorize it, give it details, upload the logs etc etc. Thats why we decided to make reporting bugs an in-game feature that handles the cumbersome steps.
+			<br><br>
+			I had to figure out a way to communicate with the Jira board, where we have an overview of all our Bugs, from within the engine and I did not have experience with any API calls from within C++. After doing some research I figured out that CURL is a lightwieght, cross-platform solution to this problem which can make HTTP requests to communicate with URL-based API's.
+			
 			</p>
             <br> </div>
 			
