@@ -150,8 +150,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			BugReporter<br>
 			We noticed while in the production phase that we were reluctant to report bugs that we encountered during development as you had to manually find the Jira Board, create an item, categorize it, give it details, upload the logs etc etc. Thats why we decided to make reporting bugs an in-game feature that handles the cumbersome steps.
 			<br><br>
-			I had to figure out a way to communicate with the Jira board, where we have an overview of all our Bugs, from within the engine and I did not have experience with any API calls from within C++. After doing some research I figured out that CURL is a lightwieght, cross-platform solution to this problem which can make HTTP requests to communicate with URL-based API's.
-			
+			I had to figure out a way to communicate with the Jira board, where we have an overview of all our Bugs, from within the engine and I did not have experience with making API calls from within C++. After doing some research I figured out that CURL is a lightwieght, cross-platform solution to this problem which can make HTTP requests to communicate with URL-based API's.
+			<br><br>
+			As we were already using <a href="https://github.com/ocornut/imgui">ImGui</a> for our graphical user interface of our game engine, it was a quick decision to use this same library for the BugReporter. The only problem was that we wanted to automatically open the BugReporter once the engine crashed via an assert, which wouldn't be possible from within our single-threaded game engine as the engine completely halts. This is why I decided to make the BugReporter a standalone application which would simply launch outside of the engine which removes the dependency.
 			</p>
             <br> </div>
 			
