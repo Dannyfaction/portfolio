@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<br><br>
 			I had to figure out a way to communicate with the Jira board, where we have an overview of all our Bugs, from within the engine and I did not have experience with making API calls from within C++. After doing some research I figured out that CURL is a lightwieght, cross-platform solution to this problem which can make HTTP requests to communicate with URL-based API's.
 			<br><br>
-			As we were already using <a href="https://github.com/ocornut/imgui">ImGui</a> for our graphical user interface of our game engine, it was an easy decision to use this same library for the BugReporter. The only problem was that we wanted to automatically open the BugReporter once the engine crashed via an assert, which wouldn't be possible from within our single-threaded game engine as the engine completely halts. This is why I decided to make the BugReporter a standalone application which would simply launch outside of the engine which removes the dependency.
+			As we were already using <a href="https://github.com/ocornut/imgui">ImGui</a> for our graphical user interface of our game engine, it made no sense to include another GUI library which would complicate things more, so we rather stuck with ImGui for the graphical user interface of the BugReporter. The only problem was that we wanted to automatically open the BugReporter once the engine crashed via an assert, which wouldn't be possible from within our single-threaded game engine as the engine completely halts. This is why I decided to make the BugReporter a standalone application which would simply launch outside of the engine which removes the dependency.
 			</p>
             <br> </div>
 			
